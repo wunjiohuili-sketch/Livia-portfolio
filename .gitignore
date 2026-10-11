@@ -1,0 +1,10 @@
+﻿# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# tooling / local
+node_modules/
+.vercel/
+*.log
+_optimize/
