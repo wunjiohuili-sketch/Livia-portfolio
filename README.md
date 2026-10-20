@@ -29,8 +29,8 @@ assets/images/work-01-cover.jpg
 assets/images/work-02-cover.jpg
 assets/images/work-03-cover.jpg
 assets/images/work-04-cover.jpg
-assets/images/work-05-cover.jpg
 assets/images/work-06-cover.jpg
+assets/images/work-07-cover.jpg
 ```
 
 作品详情页图片按以下规则读取：
@@ -52,8 +52,8 @@ assets/images/work-04-01.jpg
 assets/images/work-04-02.jpg
 assets/images/work-04-03.jpg
 assets/images/work-04-04.jpg
-assets/images/work-05-01.jpg
 assets/images/work-06-01.jpg
+assets/images/work-07-01.jpg
 ```
 
 如果作品图片暂时不存在，网页会显示 `IMAGE PENDING` 占位框。
@@ -68,7 +68,7 @@ assets/images/work-06-01.jpg
 assets/images/work-01-cover.jpg
 ```
 
-如果要改详情页图片文件名，请在对应的 `work-01.html` 到 `work-06.html` 中修改图片路径。
+如果要改详情页图片文件名，请在对应的 `work-01.html` 到 `work-07.html` 中修改图片路径。
 
 并把路径改成新的图片路径。
 

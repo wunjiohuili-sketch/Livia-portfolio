@@ -1435,6 +1435,35 @@ ul {
   transition: none;
 }
 
+.fuhui-gallery {
+  display: block;
+}
+
+.fuhui-spread {
+  display: flex;
+  width: 100%;
+  gap: 0;
+  margin-bottom: clamp(18px, 3vw, 30px);
+}
+
+.fuhui-spread:last-child {
+  margin-bottom: 0;
+}
+
+.fuhui-spread .detail-image-frame {
+  flex: 0 0 50%;
+  width: 50%;
+  min-height: 0;
+  margin: 0;
+  border: 0;
+}
+
+.fuhui-spread .detail-image-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .along-gallery {
   display: block;
 }
@@ -1652,6 +1681,20 @@ ul {
     gap: 18px;
   }
 
+}
+
+@media (max-width: 560px) {
+  .fuhui-spread {
+    display: block;
+  }
+
+  .fuhui-spread .detail-image-frame {
+    width: 100%;
+  }
+
+  .fuhui-spread .detail-image-frame + .detail-image-frame {
+    margin-top: clamp(18px, 3vw, 30px);
+  }
 }
 
 @media (min-width: 841px) and (max-width: 960px) {

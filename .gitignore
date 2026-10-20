@@ -1,4 +1,4 @@
-﻿# OS noise
+# OS noise
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -8,3 +8,7 @@ node_modules/
 .vercel/
 *.log
 _optimize/
+
+# large source material that is not linked from the site
+# (the 97 MB 浮汇 PDF has no page reference; keep it out of the deploy)
+*.pdf
